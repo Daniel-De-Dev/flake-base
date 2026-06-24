@@ -6,7 +6,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
 
     standards = {
-      url = "github:Daniel-De-Dev/nixos-standards";
+      url = "github:Daniel-De-Dev/flake-standards";
       inputs = {
         flake-parts.follows = "flake-parts";
         nixpkgs.follows = "nixpkgs";
